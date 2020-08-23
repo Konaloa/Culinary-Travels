@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<Inline html>
+<html>
 <head>
 # Markdown heading 'allowed_elements'
 <!-- markdownlint-disable MD033 -->
