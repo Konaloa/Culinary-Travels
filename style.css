@@ -1,5 +1,9 @@
-{
-background color: linearGradient
-color: aqua
-
+h1 {
+    text-align: center;
+    font-size: 36px
+    text-color: blue
+}
+h2 {
+    text-align: left;
+    font-size: 30px
 }
