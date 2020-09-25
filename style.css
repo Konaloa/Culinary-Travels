@@ -1,9 +1,10 @@
-
+body {
+    background-color: #faf0e6; 
+    color: #191970;
+}
 h1 {
     text-align: center;
     font-size: 36px;
-    background-color: #faf0e6;
-    color: #191970;
 }
 h2 {
     text-align: left;
