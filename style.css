@@ -1,23 +1,22 @@
-title {
-    background-color: azure;
-}
+
 body {
     background-color: #faf0e6; 
-    color: #191970;
+    color: #000080;
+    box-sizing: border-box; padding-left: 15em; padding-right: 15em;
 }
 h1 {
+text-underline-offset: auto;
     text-align: center;
     font-size: 36px;
 }
 h2 {
-    text-align: left;
-    font-size: 30px;
+    text-align: auto;
+    font-size: 30px; 
 }
 p {
-    inset-block: 50% 50%;
     font-family: verdana;
     font-size: 16px;
   }
-img {
-    padding: 30rem 20rem 
+div img{
+    image-rendering: padding-right;
 }
