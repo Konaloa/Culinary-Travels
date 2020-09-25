@@ -11,6 +11,7 @@ h2 {
     font-size: 30px;
 }
 p {
+    inset-block: 50%;
     font-family: verdana;
     font-size: 16px;
   }
