@@ -21,6 +21,9 @@ div img{
     image-rendering: padding-left; 5px;
     border-block: 2px;
 }
+ul {
+    font-size: 24px;
+}
 li {
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
