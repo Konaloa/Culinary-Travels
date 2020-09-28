@@ -17,10 +17,10 @@ p {
     font-family: verdana;
     font-size: 16px;
   }
-div img{
-    image-rendering: padding-left; 5px;
-    border-block: 2px;
-}
+div {
+    flex-wrap: 20px 20px 20px;
+    }  
+
 ul {
     font-size: 24px;
 }
