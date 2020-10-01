@@ -1,24 +1,23 @@
-
+.class-for-index
 body {
     background-color: #faf0e6; 
     color: #000080;
+    font-family: Lucida Sans Regular;
     box-sizing: border-box; padding-left: 15em; padding-right: 15em;
 }
 h1 {
-text-underline-offset: auto;
-    text-align: center;
     font-size: 36px;
+    text-align: center;
+    text-emphasis: none;
 }
 h2 {
-    text-align: auto;
     font-size: 30px; 
 }
 p {
-    font-family: verdana;
     font-size: 16px;
   }
 div {
-    flex-wrap: 20px 20px 20px;
+    align-items: float right;
     }  
 
 ul {
@@ -26,4 +25,19 @@ ul {
 }
 li {
     padding-bottom: 4em;
+}
+
+.class-for-itinerary
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3rem; 
+    min-width: container-fluid; 
+    padding-left: 15px;
+    padding-right: 15px
+}
+img {
+    background-image #Dinner-table: -o-linear-gradient(500px);
+    padding-block: 10px 10px 10px;
 }

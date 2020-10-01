@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <title>Culinary Travel Trips</title>
-        https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
-        
-        <h1>Come join us on our next voyage!</h1>
-        
-        <div id="food" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#food1" data-slide-to="0" class="active"></li>
-              <li data-target="#food2" data-slide-to="1"></li>
-              <li data-target="#food3" data-slide-to="2"></li>
-              <li data-target="#food4" data-slide-to="3"></li>
-            </ul>
-          
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="Bruschetta.jpg" alt="Bruschetta appetizers">
-                <div class="btn-group btn-group-sm" role="group" aria-label="<i class="fa fa-500px" aria-hidden="true"></i>">
-                   Add buttons here
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="Fish and chips.jpg" alt="Fish and Chips">
-              </div>
-              <div class="carousel-item">
-                <img src="Salmon.jpg" alt="Salmon dinner">
-              </div>
-              <div class="carousel-item">
-                <img src="Cauliflower.jpg" alt="New York">
-              </div>
-            </div>
-          
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#food" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#food" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          
-          </div>
-
-           For more information on membership <a href="#membershiplink">Membership Link</a>   
-        </p>    
+<head>
+  <title>Culinary Travel Itinerary</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+<body>
+<br>
+
+<div class="container">
+  <h2>Choose your travel package</h2>
+  <br>
+  <!-- Nav pills -->
+  <ul class="nav nav-pills" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="pill" href="#Gourmand">Gourmand</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#Epicurean">Epicurean</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#Connoisseur">Connoisseur</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="Gourmand" class="container tab-pane active"><br>
+      <h3>Gourmand</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="Epicurean" class="container tab-pane fade"><br>
+      <h3>Epicurean</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="Connoisseur" class="container tab-pane fade"><br>
+      <h3>Connoisseur</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+  </div>
+</div>
+  <p>
+    <img src="Dinner-table.jpeg" alt="table">
+  </p>    
+  </body>
 </html>
+
