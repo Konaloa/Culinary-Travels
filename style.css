@@ -1,35 +1,25 @@
-.class-for-index
-body {
+.class-for-index {
     background-color: #faf0e6; 
     color: #000080;
     font-family: Lucida Sans Regular;
-    box-sizing: border-box; padding-left: 15em; padding-right: 15em;
+    text-align: center;
+    margin: 20%;
+    padding: 10em;
 }
 h1 {
     font-size: 36px;
-    text-align: center;
-    text-emphasis: none;
 }
 h2 {
     font-size: 30px; 
 }
-p {
+p div {
     font-size: 16px;
-  }
-div {
-    align-items: float right;
-    }  
-
-ul {
-    font-size: 24px;
-}
-li {
-    padding-bottom: 4em;
 }
 
 .class-for-itinerary
 h2 {
     font-size: 4rem;
+    padding-top: 6em;
 }
 h3 {
     font-size: 3rem; 
@@ -38,6 +28,5 @@ h3 {
     padding-right: 15px
 }
 img {
-    background-image #Dinner-table: -o-linear-gradient(500px);
-    padding-block: 10px 10px 10px;
+    background-origin: padding-box 2em;  
 }
