@@ -16,7 +16,12 @@ p div {
     font-size: 16px;
 }
 
-.class-for-itinerary
+.class-for-itinerary {
+    background-color: #faf0e6; 
+    color: #000080;
+    font-family: Lucida Sans Regular;
+}
+
 h2 {
     font-size: 4rem;
     padding-top: 6em;
@@ -28,5 +33,28 @@ h3 {
     padding-right: 15px
 }
 img {
-    background-origin: padding-box 2em;  
+    box-sizing: border-box;
 }
+    .container {
+    position: relative;
+}  
+
+.class-for-signup {
+    background-color: #faf0e6; 
+    color: #000080;
+    font-family: Lucida Sans Regular;
+}
+h3 p {
+    font-size: medium;
+    margin: 15em;
+    padding: 30em;
+}
+label {
+    font-size: medium;
+    padding: 1em;
+}
+img {
+    background-image: -moz-linear-gradient(15%);
+    border-block-end: 100%;
+}
+ 
