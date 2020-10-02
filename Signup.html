@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Culinary Travel Membership form</title>
-        https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
-        https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-        <link href="styles.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>Culinary Travel</title>  
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <p>Let's get started on your membership.</p>
-    <form id="CTT-form"
-  action="https://formspree.io/xnqgyore"
-  method="POST"
+    <p>Culinary Travel Membership</p>
+    <bg-img> src="#Cauliflower.jpg" alt="Cauliflower appetizers" width: 100%></bg-img>
+    <form id="Culinary-Travel"></form>
+    action="https://formspree.io/xnqgyore"
 
 > 
-    <h3 id="membershipLink">Membership Link</h3>    
+    <h3 id="membershipLink">Let's get started on your membership.</h3>    
     <p style="color: blue;text-align:left;"></p> 
   <label>Name:</label>
   <input type="name" name="name" />
@@ -30,12 +27,13 @@
   <input type="email" name="email" />
   <label>Message:</label>
   <input type="text" name="message" />
-  <button id="CTT-form-button">Submit</button>
+  <button id="success">Submit</button>
+  <method="post"></method>
   <p id="CTT-form-status"></p>
-</form>
+  
 
 <!-- Place this script at the end of the body tag -->
-
+</body>
 <script>
   window.addEventListener("DOMContentLoaded", function() {
 
@@ -82,10 +80,5 @@
     };
     xhr.send(data);
   }
-</script>
-</h1>
-</body>
-    
-
-    </body>
+  </script>
 </html>
