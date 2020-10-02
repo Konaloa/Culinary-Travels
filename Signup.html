@@ -6,10 +6,9 @@
     </head>
     <body>
     <p>Culinary Travel Membership</p>
-    <bg-img> src="#Cauliflower.jpg" alt="Cauliflower appetizers" width: 100%></bg-img>
+    <bg-img> src="Cauliflower.jpg" alt="Cauliflower appetizers" width: 100%></bg-img>
     <form id="Culinary-Travel"></form>
-    action="https://formspree.io/xnqgyore"
-
+    <!-- action="https://formspree.io/xnqgyore" -->
 > 
     <h3 id="membershipLink">Let's get started on your membership.</h3>    
     <p style="color: blue;text-align:left;"></p> 
@@ -29,22 +28,17 @@
   <input type="text" name="message" />
   <button id="success">Submit</button>
   <method="post"></method>
-  <p id="CTT-form-status"></p>
-  
-
-<!-- Place this script at the end of the body tag -->
+  <p id="Culinary-Travel-form-status"></p>
 </body>
 <script>
   window.addEventListener("DOMContentLoaded", function() {
 
-    // get the form elements defined in your form HTML above
-    
+      
     var form = document.getElementById("my-form");
     var button = document.getElementById("my-form-button");
     var status = document.getElementById("my-form-status");
 
-    // Success and Error functions for after the form is submitted
-    
+      
     function success() {
       form.reset();
       button.style = "display: none ";
@@ -64,8 +58,7 @@
     });
   });
   
-  // helper function for sending an AJAX request
-
+  
   function ajax(method, url, data, success, error) {
     var xhr = new XMLHttpRequest();
     xhr.open(method, url);
