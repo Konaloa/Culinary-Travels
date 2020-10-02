@@ -54,7 +54,7 @@ label {
     padding: 1em;
 }
 img {
-    background-image: -moz-linear-gradient(15%);
+    background-image: -moz-linear-gradient(15%); 
     border-block-end: border-fluid; max-height: fit-content;
 }
  
