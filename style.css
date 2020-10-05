@@ -55,6 +55,6 @@ label {
 }
 img {
     background-image: -moz-linear-gradient(10%); 
-    border-block-end: border-fluid; max-height: 10%;
+    border-block-end: border-fluid; max-height: 75%;
 }
  
