@@ -5,8 +5,8 @@
   <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
   <body>
-  <h1><strong>Culinary Travel</strong></h1>
-  <p>Let's get started with your membership.</p>
+  <h1><strong>Culinary Travel membership</strong></h1>
+  <p>Let's get started with your membership registration.</p>
   <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
     <fieldset id="fs-frm-inputs">
       <label for="full-name">Full Name</label>
@@ -16,7 +16,7 @@
       <label for="street-address">Street Address</label>
       <input type="text" name="street" id="street-address" placeholder="Street" required="">
       <fieldset class="locale">
-        <legend>Locale</legend>
+        <legend>City State and zip</legend>
         <input type="text" name="city" placeholder="City" required="">
         <select name="state" required="">
           <option value="Select" selected="" disabled="">State</option>
@@ -80,3 +80,15 @@
     </fieldset>
     <input type="submit" value="Register">
   </form> 
+  axios({
+    url: 'https://formspree.io/f/CULINARY_TRAVEL',
+    method: 'post',
+    headers: {
+      'Accept': 'application/json'
+    },
+    data: {
+      email: 'a.visitor@email.com',
+      message: "Hello.hello!"
+    }
+  }).then((response) => { console.log(response); })
+</script>
