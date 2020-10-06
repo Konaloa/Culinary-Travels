@@ -1,10 +1,11 @@
-.class-for-index {
+.class-for-index 
+body {
     background-color: #faf0e6; 
     color: #000080;
     font-family: Lucida Sans Regular;
     text-align: center;
     margin: 20%;
-    padding: 10em;
+    padding: 30px;
 }
 h1 {
     font-size: 36px;
