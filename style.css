@@ -1,4 +1,4 @@
-.class-for-index 
+.class-for-index.html 
 body {
     background-color: #faf0e6; 
     color: #000080;
@@ -17,7 +17,7 @@ p div {
     font-size: 16px;
 }
 
-.class-for-itinerary {
+.class-for-itinerary.html {
     background-color: #faf0e6; 
     color: #000080;
     font-family: Lucida Sans Regular;
@@ -40,19 +40,19 @@ img {
     position: relative;
 }  
 
-.class-for-signup {
+.class-for-signup.html {
     background-color: #faf0e6; 
     color: #000080;
     font-family: Lucida Sans Regular;
 }
 h3 p {
     font-size: medium;
-    margin: 15em;
-    padding: 30em;
+    margin: 10em;
+    padding: 20em;
 }
 label {
     font-size: medium;
-    padding: 10em;
+    padding: 1em;
 }
 img {
     background-image: -moz-linear-gradient(10%); 
