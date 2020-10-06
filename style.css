@@ -5,7 +5,9 @@ body {
     font-family: Lucida Sans Regular;
     text-align: center;
     margin: 20%;
-    padding: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
 }
 h1 {
     font-size: 36px;
@@ -42,14 +44,15 @@ img {
     border-image-width: 15rem;
 }  
 
-.class-for-join.html {
+.class-for-join.html 
+body {
     background-color: #faf0e6; 
     color: #000080;
     font-family: Lucida Sans Regular;
 
 }label input legend {
     font-size: medium;
-    padding: 2rem;
+    padding: 6rem;
 }
 img {
     background-image: -moz-linear-gradient(10%); 
