@@ -35,9 +35,11 @@ h3 {
 }
 img {
     box-sizing: border-box;
+    border-image: center;
 }
     .container {
     position: relative;
+    border-image-width: 15rem;
 }  
 
 .class-for-signup.html {
