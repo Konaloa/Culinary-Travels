@@ -42,19 +42,13 @@ img {
     border-image-width: 15rem;
 }  
 
-.class-for-signup.html {
+.class-for-join.html {
     background-color: #faf0e6; 
     color: #000080;
     font-family: Lucida Sans Regular;
-}
-h3 p {
+}label input legend {
     font-size: medium;
-    margin: 10em;
-    padding: 20em;
-}
-label {
-    font-size: medium;
-    padding: 1em;
+    padding: 4px;
 }
 img {
     background-image: -moz-linear-gradient(10%); 
