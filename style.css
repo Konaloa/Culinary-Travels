@@ -46,9 +46,10 @@ img {
     background-color: #faf0e6; 
     color: #000080;
     font-family: Lucida Sans Regular;
+
 }label input legend {
     font-size: medium;
-    padding: 4px;
+    padding: 2rem;
 }
 img {
     background-image: -moz-linear-gradient(10%); 
