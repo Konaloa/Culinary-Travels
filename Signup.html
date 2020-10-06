@@ -70,7 +70,7 @@
     });
   });
   
-  // handle the form submission event
+    // handle the form submission event
 
   
   function ajax(method, url, data, success, error) {
@@ -87,8 +87,8 @@
     };
     xhr.send(data);
   }
-  
-  axios({
+  axios(
+  {
     url: 'https://formspree.io/f/YOUR_FORM_ID',
     method: 'post',
     headers: {
