@@ -24,14 +24,14 @@ p div {
 }
 
 h2 {
-    font-size: 4rem;
-    padding-top: 6em;
+    font-size: 48px;
+    padding-top: 36px;
 }
 h3 {
-    font-size: 3rem; 
+    font-size: 36px; 
     min-width: container-fluid; 
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
 }
 img {
     box-sizing: border-box;
@@ -52,7 +52,7 @@ h3 p {
 }
 label {
     font-size: medium;
-    padding: 1em;
+    padding: 10em;
 }
 img {
     background-image: -moz-linear-gradient(10%); 
