@@ -1,8 +1,9 @@
-.class-for-index.html 
-    body {
+.class-for-index.html
+body {
+       font-family: Lucida sans regular;
+       font-size: 18px;
        background-color: #faf0e6; 
        color: #000080;
-       font-family: Lucida Sans Regular;
        text-align: center;
        margin: 20%;
        padding-left: 20%;
@@ -19,7 +20,8 @@
        font-size: 16px;
 }
 
-.class-for-itinerary.html 
+.class-for-itinerary.html
+    
     body {
        background-color: #faf0e6; 
        color: #000080;
