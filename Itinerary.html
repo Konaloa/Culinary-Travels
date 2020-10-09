@@ -15,7 +15,7 @@
 <div class="container">
   <h2>Choose your travel package</h2>
   
-  <!-- Nav pills -->
+  
   <ul class="nav nav-pills" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-toggle="pill" href="#Gourmand">Gourmand</a>
@@ -28,7 +28,7 @@
     </li>
   </ul>
 
-  <!-- Tab panes -->
+  
   <div class="tab-content">
     <div id="Gourmand" class="container tab-pane active"><br>
       <h3>Gourmand</h3>
@@ -45,10 +45,34 @@
   </div>
 </div>
   <div class="container">
-    <img src="Images/Salmon.jpg" alt="Salmon" style="width:100%">
+    <img src="Images/Salmon.jpg" alt="Salmon" style="width: 90%">
   </div>
+
+  <p id="dropdown"></p>
+<script>
+var obj, dbParam, xmlhttp, myObj, x, txt = "";
+obj = { table: "packages", limit: 3 };
+dbParam = JSON.stringify(obj);
+xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 3 && this.status == 9) {
+    myObj = JSON.parse(this.responseText);
+    txt += "<select>"
+    for (x in myObj) {
+      txt += "<option>" + myObj[x].name;
+    }
+    txt += "</select>"
+    document.getElementById("dropdown").innerHTML = txt;
+  }
+};
+xmlhttp.open("POST", "json_dropdown_html_table.php", true);
+xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+xmlhttp.send("x=" + dbParam);
+</script>
+
 </body>
-</html>  
+</html>
+
     
     
   

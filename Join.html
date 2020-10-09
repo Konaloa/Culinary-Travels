@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Culinary Travel</title>  
-        <link rel="stylesheet" href="style.css">
-      </head>
-      <body>  
-      <link rel="sass source/stylesheets/index.scss build/stylesheets/index.css"
-    <p>Culinary Travel Membership</p>
-    <img src="Images/Dinner-table.png" alt="Table">
-    <p>Let's get started with your membership registration.</p>    
-    <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+      <title>Culinary Travel</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <p>Culinary Travel Membership</p>
+      <img src="Images/Dinner-table.png" alt="Table">
+      <p>Let's get started with your membership registration.</p>    
+    <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/form_id" method="post">
         <fieldset id="fs-frm-inputs">
           <label for="full-name">Full Name</label>
           <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -21,7 +20,7 @@
             <legend>City State and zip</legend>
             <input type="text" name="city" placeholder="City" required="">
             <select name="state" required="">
-              <option value="Select" selected="" disabled="">State</option>
+              <option value="" selected="" disabled="">State</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
