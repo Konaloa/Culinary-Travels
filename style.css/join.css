@@ -1,0 +1,14 @@
+body {
+    background-color: #faf0e6; 
+    color: #000080;
+    font-family: Lucida Sans Regular;
+
+}
+ label input legend {
+    font-size: medium;
+    padding: 6rem;
+}
+ img {
+    background-image: -moz-linear-gradient(10%); 
+    border-block-end: border-fluid; max-height: 75%;
+}
