@@ -5,7 +5,7 @@ $background-color: #faf0e6
 body {
   font: 100% $font-stack;
   color: $primary-color;
-  background: #faf0e6;
+  background: linen;
 }
 
  h2 {
