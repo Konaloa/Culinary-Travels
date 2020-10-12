@@ -1,0 +1,28 @@
+$font-stack:    Lucida, sans-regular;
+$primary-color: #000080;
+$background-color: #faf0e6
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background: #faf0e6;
+}
+
+ h2 {
+    font-size: 48px;
+    padding-top: 36px;
+}
+ h3 {
+    font-size: 36px; 
+    min-width: container-fluid; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ img {
+    box-sizing: border-box;
+    border-image: center;
+}
+ .container {
+ position: relative;
+ border-image-width: 15rem;
+}  
