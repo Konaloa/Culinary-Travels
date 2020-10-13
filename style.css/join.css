@@ -1,7 +1,12 @@
-body {
-    background-color: #faf0e6; 
-    color: #000080;
-    font-family: Lucida Sans Regular;
+/* Define standard variables and values for website */
+$myBgcolor: faf0e6;
+$myColor: navyblue;
+$myFont: Lucida, sans-regular;
+
+   body {
+    background-color: $myBgcolor;
+    color: $myColor;
+    font: $myFont;
 
 }
  label input legend {
