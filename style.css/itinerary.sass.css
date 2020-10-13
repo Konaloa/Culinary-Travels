@@ -1,12 +1,13 @@
-$font-stack:    Lucida, sans-regular;
-$primary-color: #000080;
-$background-color: #faf0e6
+/* Define standard variables and values for website */
+$myBgcolor: faf0e6;
+$myColor: navyblue;
+$myFont: Lucida, sans-regular;
+$myWidth: 70px;
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  background: linen;
-}
+ body {
+    background-color: $myBgcolor;
+    color: $myColor;
+    font: $myFont;
 
  h2 {
     font-size: 48px;
@@ -14,15 +15,15 @@ body {
 }
  h3 {
     font-size: 36px; 
-    min-width: container-fluid; 
+    min-width: 60px; 
     padding-left: 15px;
     padding-right: 15px;
 }
  img {
     box-sizing: border-box;
-    border-image: center;
+    width: $myWidth;
 }
- .container {
- position: relative;
- border-image-width: 15rem;
+ #container {
+    position: relative;
+    width: $myWidth;
 }  
