@@ -21,9 +21,9 @@ $myWidth: 70px;
 }
  img {
     box-sizing: border-box;
-    width: $myWidth;
+    image-rendering: $myWidth;
 }
  #container {
     position: relative;
-    width: $myWidth;
+    box-sizing: $myWidth;
 }  
