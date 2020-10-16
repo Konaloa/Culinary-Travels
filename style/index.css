@@ -1,12 +1,15 @@
 /* Define standard variables and values for website */
-$myBgcolor: faf0e6;
+/*
+$myBgcolor: #faf0e6;
 $myColor: navyblue;
 $myFont: Lucida, sans-regular;
+*/
 
-   body { 
-    background-color: $myBgcolor;
-    color: $myColor;
-    font: $myFont;
+
+body { 
+    background-color: #faf0e6;
+    color: navyblue;
+    font: Lucida, sans-regular;
     font-size: 18px;
     text-align: center;
     margin: 20%;
@@ -16,6 +19,8 @@ $myFont: Lucida, sans-regular;
 }
  h1 {
     font-size: 36px;
+    letter-spacing: 2px; 
+    font-weight: 400;
 }
  h2 {
     font-size: 30px; 
