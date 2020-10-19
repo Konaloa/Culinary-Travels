@@ -8,17 +8,16 @@
     padding-top: 6em;
     padding-bottom: 6em;
     text-align: center;
+    image-orientation: center;
 
  h2 {
     font-size: 48px;
+    font-weight: 400
+    letter-spacing: 2px
 }
  
  h3 {
     font-size: 36px; 
 }
- img {
-    box-sizing: border-box;
-    image-rendering: center;
-    min-height: fit-content;
-}
+
  
