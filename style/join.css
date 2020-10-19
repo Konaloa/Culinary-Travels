@@ -1,15 +1,22 @@
 /* Define standard variables and values for website */
 
    body {
-    background-color: #faf0e6;
-    color: navy;
-    font-family: Lucida sans-regular;
+      background-color: #faf0e6;
+      color: navy;
+      font-family: Lucida sans-regular;
+      text-align: center;
+      padding-left: 5em;
+      padding-right: 5em;
+}
 
+   p {
+      font-size: 4em;  
 }
- label input legend {
-    font-size: medium;
-    padding: 6rem;
+   label input legend {
+      font-size: larger;
+      padding: 10rem;
 }
- img {
-    max-height: 70%;
+   img {
+      max-height: 100%;
+      image-orientation: center
 }
