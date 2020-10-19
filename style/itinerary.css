@@ -1,13 +1,9 @@
 /* Define standard variables and values for website */
-$myBgcolor: faf0e6;
-$myColor: navyblue;
-$myFont: Lucida, sans-regular;
-$myWidth: 70px;
 
  body {
-    background-color: $myBgcolor;
-    color: $myColor;
-    font: $myFont;
+    background-color: #faf0e6;
+    color: navy;
+    font: Lucida sans-regular;
 
  h2 {
     font-size: 48px;
@@ -21,9 +17,9 @@ $myWidth: 70px;
 }
  img {
     box-sizing: border-box;
-    image-rendering: $myWidth;
+    image-rendering: 70px;
 }
  #container {
     position: relative;
-    box-sizing: $myWidth;
+    box-sizing: 70px;
 }  
