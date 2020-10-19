@@ -4,22 +4,23 @@
     background-color: #faf0e6;
     color: navy;
     font: Lucida sans-regular;
+    margin: 20px;
+    padding: 10px;
 
- h2 {
+ h2  {
     font-size: 48px;
-    padding-top: 36px;
+   
 }
  h3 {
     font-size: 36px; 
     min-width: 60px; 
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
  img {
     box-sizing: border-box;
-    image-rendering: 70px;
+    image-rendering: 50px;
 }
  #container {
     position: relative;
-    box-sizing: 70px;
+    box-sizing: 60px;
 }  
