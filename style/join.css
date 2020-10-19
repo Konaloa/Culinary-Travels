@@ -3,7 +3,7 @@
    body {
       background-color: #faf0e6;
       color: navy;
-      font-family: Lucida sans-regular;
+      font-family: "Lucida sans-regular";
       text-align: center;
       padding-left: 5em;
       padding-right: 5em;
@@ -18,5 +18,4 @@
 }
    img {
       max-height: 100%;
-      image-orientation: center
 }
