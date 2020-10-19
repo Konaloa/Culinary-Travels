@@ -3,24 +3,22 @@
  body {
     background-color: #faf0e6;
     color: navy;
-    font: Lucida sans-regular;
+    font-family: "Lucida Sans Regular";
     margin: 20px;
-    padding: 10px;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    text-align: center;
 
- h2  {
+ h2 {
     font-size: 48px;
-   
 }
+ 
  h3 {
     font-size: 36px; 
-    min-width: 60px; 
-
 }
  img {
     box-sizing: border-box;
-    image-rendering: 50px;
+    image-rendering: center;
+    min-height: fit-content;
 }
- #container {
-    position: relative;
-    box-sizing: 60px;
-}  
+ 
