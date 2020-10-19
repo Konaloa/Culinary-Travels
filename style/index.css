@@ -12,10 +12,10 @@ body {
     font: Lucida, sans-regular;
     font-size: 18px;
     text-align: center;
-    margin: 20%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 20%;
+    margin: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
 }
  h1 {
     font-size: 36px;
