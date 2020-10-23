@@ -7,15 +7,16 @@
       text-align: center;
       padding-left: 5em;
       padding-right: 5em;
+      padding-top: 3em;
 }
-
    p {
-      font-size: 4em;  
+      font-size: 3em;  
 }
-   label input legend {
-      font-size: larger;
-      padding: 10rem;
-}
+   label {
+      font-size: x-large;
+      margin: 5em;
+      padding: 40em;
+} 
    img {
       max-height: 100%;
 }
