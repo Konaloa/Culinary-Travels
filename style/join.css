@@ -13,9 +13,11 @@
       font-size: 3em;  
 }
    label {
-      font-size: x-large;
-      margin: 5em;
-      padding: 40em;
+      font-size: large;
+      padding: 10px;
+   id {
+      padding: 1em;
+}   
 } 
    img {
       max-height: 100%;
