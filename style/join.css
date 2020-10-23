@@ -9,6 +9,12 @@
       padding-right: 5em;
       padding-top: 3em;
 }
+   div {
+      text-align: left;
+   }
+   form {
+      padding-left: 6em;
+   }
    p {
       font-size: 3em;  
 }
@@ -22,3 +28,7 @@
    img {
       max-height: 100%;
 }
+   button {
+      border-style: double;
+      max-height: 40px;
+   }
