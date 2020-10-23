@@ -13,22 +13,19 @@
       text-align: left;
    }
    form {
-      padding-left: 6em;
+      padding-left: 12em;
    }
    p {
       font-size: 3em;  
 }
    label {
       font-size: large;
-      padding: 10px;
-   id {
-      padding: 1em;
-}   
+      padding: 15px;   
 } 
    img {
       max-height: 100%;
 }
    button {
-      border-style: double;
-      max-height: 40px;
+      border-style: dotted;
+      max-height: 50px;
    }
