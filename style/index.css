@@ -2,8 +2,8 @@
 
 body { 
     background-color: #faf0e6;
-    color: navyblue;
-    font: Lucida, sans-regular;
+    color: rgb(0,0,255);
+    font-family: Lucida, sans-regular;
     font-size: 18px;
     text-align: center;
     margin: 30px;
