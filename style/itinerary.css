@@ -2,25 +2,10 @@
 
  body {
     background-color: #faf0e6;
-    color: navy;
+    color: rgb(0,0,255);
     font-family: "Lucida Sans Regular";
+    font-size: 100%;
     margin: 20px;
     padding-top: 6em;
     padding-bottom: 6em;
     text-align: center;
-    image-orientation: center;
-
- h2 {
-    font-size: 48px;
-    font-weight: 400
-    word-spacing: 4px
-    letter-spacing: 2px
-}
- 
- h3 {
-    font-size: 36px; 
-}
-  a {
-    text-align: right;
-}
- 
