@@ -4,10 +4,11 @@
     background-color: #faf0e6;
     color: rgb(0,0,255);
     font-family: "Lucida Sans Regular";
-    margin: 20px;
-    padding-top: 6em;
-    padding-bottom: 6em;
+    margin: 30px;
+    padding-top: 5em;
+    padding-bottom: 5em;
     text-align: justify;
  nav {
     border: solid;
+    padding: 15px;
  }
