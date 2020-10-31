@@ -8,3 +8,6 @@
     padding-top: 6em;
     padding-bottom: 6em;
     text-align: justify;
+ nav {
+    border: solid;
+ }
