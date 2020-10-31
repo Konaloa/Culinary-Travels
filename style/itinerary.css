@@ -9,6 +9,7 @@
     padding-bottom: 5em;
     text-align: justify;
  nav {
+    in-line block: border-box
     border: solid;
     padding: 15px;
  }
