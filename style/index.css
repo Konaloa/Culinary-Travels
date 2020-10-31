@@ -23,6 +23,7 @@ nav {
  h2 {
     font-size: 30px; 
 }
- p div {
+ h3 p div {
     font-size: 16px;
+    text-align: left;
 }
