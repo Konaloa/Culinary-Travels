@@ -13,10 +13,10 @@
       text-align: left;
    }
    form {
-      padding-left: 12em;
+      padding-left: 3rem;
    }
    p {
-      font-size: 3em;  
+      font-size: 36px;  
 }
    label {
       font-size: large;
@@ -26,6 +26,6 @@
       max-height: 100%;
 }
    button {
-      border-style: dotted;
+      border-style: solid;
       max-height: 50px;
    }
