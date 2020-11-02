@@ -5,7 +5,7 @@ body {
     color: rgb(0,0,255);
     font-family: Lucida, sans-regular;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     margin: 30px;
     padding-left: 10%;
     padding-right: 10%;
@@ -24,6 +24,5 @@ nav {
     font-size: 30px; 
 }
  p aside {
-    text-align: left;
     font-size: 16px;
 }
