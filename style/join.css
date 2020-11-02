@@ -9,6 +9,9 @@
       padding-right: 10%;
       padding-top: 3em;
 }
+   nav {
+      border: solid;
+   }
    div {
       text-align: left;
    }
